@@ -1,0 +1,54 @@
+h1 {
+  font-family: League spartan, Arial, Helvetica, sans-serif;
+  color: #ffa511;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.5x;
+  text-decoration: teal double underline;
+  text-transform: uppercase;
+
+}
+
+button {
+  background-color: #fff;
+  color: blueviolet;
+}
+textarea {
+  color: rgb(0, 0, 0);
+}
+
+p {
+  color:brown;
+  line-height: 30px;
+  text-align: center;
+}
+
+h1, h3, p {
+  text-align: center;
+}
+
+h3{
+  color: black;
+  text-align: center;
+}
+
+span {
+  text-decoration: underline;
+}
+
+body{
+  font: Georgia;
+}
+
+a{
+  color: rgb(0, green, 0);
+  text-decoration: none;
+}
+
+h1 {
+ color: red;
+ font-family: Georgia;
+ text-align: center;
+}

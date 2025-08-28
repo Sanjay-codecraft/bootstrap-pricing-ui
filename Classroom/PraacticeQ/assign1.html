@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="/server">
+    <input type="checkbox" name="age" id="age">
+  <label for="age">Iam 18+</label>
+  <button>Submit</button>
+  </form>
+
+  <hr>
+
+  <form action="/server">
+    Choose Your profession :
+    <select name="profession" id="profession">
+      <option value="stu" selected>Student</option>
+      <option value="dev">Developer</option>
+    </select>
+    <button>submit</button>
+  </form>
+  <hr>
+  <form action="/server">
+    <label for="vol">Choose your volume range :</label>
+    <input type="range" min="10" max="1000" name="vol" id="vol" value="90" step="100">
+    <button>submit</button>
+  </form>
+  <br>
+  <form action="/server">
+    <label for="feedback">Plaese give your valuable feedback</label>
+    <textarea name="feedback" id="feedback" > </textarea>
+    <button>submit</button>
+  </form>
+
+  <hr>
+  <form action="/server">
+    <h1>Registration Form</h1>
+    <input type="text" placeholder="First Name">
+    <input type="text" placeholder="Last Name">
+    <br>
+    <label for="gender">Please select your gender</label>
+    <select name="gender" id="gender">
+    <option value="m" selected>Male</option>
+    <option value="f">Female</option>
+    <option value="o">Others</option></select><br>
+    Do you agree to all terms of services? 
+    <input type="checkbox" name="terms" id="terms">
+    <label for="terms">Yes, I agree</label>
+    <button>Register</button>
+  </form>
+<hr>
+  <table border="Black">
+    <tr>
+      <th rowspan="6">Info</th>
+      <th rowspan="2">Name</th>
+      <th colspan="2">Address</th>
+    </tr>
+
+    <tr>
+      
+      <th>city</th>
+      <th>House</th>
+    </tr>
+
+    <tr>
+      
+      <td>A</td>
+      <td>Delhi</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      
+      <td>A</td>
+      <td>pune</td>
+      <td>1</td>
+    </tr>
+    <tr>
+     
+      <td>A</td>
+      <td>mumbai</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      
+      <td>A</td>
+      <td>kolkatha</td>
+      <td>1</td>
+    </tr>
+    
+  </table>
+
+  <hr>
+  <form action="/server">
+    <div>
+    <label for="name">name</label>
+    <input type="text" name="name" id="name">
+    <br>
+    Select gender: 
+    <label for="male">male</label>
+    <input type="radio" name="sex" value="male" id="male" checked>
+    <label for="female">female</label>
+    <input type="radio" name="sex" id="female" value="female">
+    </div>
+
+    <div>
+      <label for="opt">Country:</label>
+      <select name="option" id="opt">
+        <option selected>Select an option</option>
+        <option value="India">India</option>
+        <option value="Australia">Australia</option>
+      </select>
+    </div>
+    <div>
+      <label for="text">Message:</label><br>
+      <textarea placeholder="Give your feedback here" name="area" id="text" rows="5"></textarea>
+    </div>
+    <div>
+      <!-- <label for="box">Subscribe?</label> -->
+      <input type="checkbox" name="box" id="box">
+      Subscribe?
+    </div>
+    <button>Submit</button>
+  </form>
+
+  <Form>
+    <h1>Feedback Form</h1>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" placeholder="Write your name"> <br>
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" placeholder="Write your email">
+
+    <div>
+      <!-- Message: -->
+      <label for="text">Message:</label><br>
+      <textarea name="text" id="text" rows="5" cols="20"></textarea>
+    </div>
+    <div>
+      Rate us our of 5:  <br>
+      <input type="radio" name="rate" id="one">
+      <label for="one">1</label> <br>
+      <input type="radio" name="rate" id="two">
+      <label for="two">2</label><br>
+      <input type="radio" name="rate" id="three">
+      <label for="three">3</label><br>
+      <input type="radio" name="rate" id="four">
+      <label for="four">4</label><br>
+      <input type="radio" name="rate" id="five">
+      <label for="five">5</label><br>
+    </div>
+  </Form>
+  
+</body>
+</html>
+
+
+
+
